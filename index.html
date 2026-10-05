@@ -55,20 +55,28 @@
     "slogan": "Excelencia y Pasión por tu Tranquilidad",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Calzada de Tlalpan #679",
+      "streetAddress": "Carretera México-Toluca #1725 Int. F4, Col. Granjas Palo Alto, Cuajimalpa",
       "addressLocality": "Ciudad de México",
       "addressRegion": "CDMX",
-      "postalCode": "03400",
+      "postalCode": "05118",
       "addressCountry": "MX"
     },
-    "geo": { "@type": "GeoCoordinates", "latitude": 19.3946304, "longitude": -99.138308 },
+    "geo": { "@type": "GeoCoordinates", "latitude": 19.3816541, "longitude": -99.2544344 },
     "areaServed": { "@type": "Country", "name": "México" },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "13:00"
+      }
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Servicios de seguridad privada",
@@ -181,7 +189,7 @@
     <div class="wrap topbar__in">
       <p class="mono topbar__item"><span class="dot dot--live" aria-hidden="true"></span>Disponibilidad 24/7</p>
       <p class="mono topbar__item topbar__item--hide-sm">DGSP/446-23/2118 <span class="sep">/</span> REPSE 201753</p>
-      <p class="mono topbar__item topbar__item--hide-md"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Calzada de Tlalpan #679, CDMX</p>
+      <p class="mono topbar__item topbar__item--hide-md"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Carr. México-Toluca #1725 Int. F4, CDMX</p>
       <a class="mono topbar__item topbar__phone" href="tel:+525662516690"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>566 251 6690</a>
     </div>
   </div>
@@ -366,7 +374,7 @@
         </div>
         <div class="stat" data-hero="stat">
           <dt class="mono">Clientes de referencia</dt>
-          <dd><span class="stat__v" data-count="8" data-pad="2">08</span></dd>
+          <dd><span class="stat__v" data-count="10" data-pad="2">10</span></dd>
           <p>Desarrolladores, agro e industria</p>
         </div>
       </dl>
@@ -894,14 +902,16 @@
     </header>
 
     <ul class="client-grid" data-reveal-group>
-      <li class="client"><img src="assets/clients/inpro.jpg" alt="Logotipo de INPRO, investigación productiva" width="992" height="465" loading="lazy"><span class="mono">INPRO</span></li>
       <li class="client"><img src="assets/clients/lomas-tejocotes.jpg" alt="Logotipo de Residencial Lomas de Tejocotes" width="872" height="392" loading="lazy"><span class="mono">Lomas de Tejocotes</span></li>
       <li class="client"><img src="assets/clients/grupo-vivo.jpg" alt="Logotipo de Grupo VIVO Inmobiliario" width="178" height="116" loading="lazy"><span class="mono">Grupo VIVO Inmobiliario</span></li>
       <li class="client"><img src="assets/clients/desarrollos-vivo.jpg" alt="Logotipos de Desarrollos VIVO" width="854" height="480" loading="lazy"><span class="mono">Desarrollos VIVO</span></li>
-      <li class="client"><img src="assets/clients/nea.jpg" alt="Logotipo de NEA Shopping Center" width="154" height="150" loading="lazy"><span class="mono">NEA</span></li>
       <li class="client"><img src="assets/clients/limantitla.jpg" alt="Logotipo de Desarrolladora Limantitla" width="904" height="422" loading="lazy"><span class="mono">Fracc. Limantitla</span></li>
-      <li class="client"><img src="assets/clients/agricola-maas.jpg" alt="Logotipo de Agrícola Maas" width="224" height="100" loading="lazy"><span class="mono">Agrícola Maas</span></li>
-      <li class="client"><img src="assets/clients/agricola-la-gaby.jpg" alt="Logotipo de Agrícola La Gaby" width="1130" height="370" loading="lazy"><span class="mono">Agrícola La Gaby</span></li>
+      <li class="client"><img src="assets/clients/bodesa.jpg" alt="Logotipo de Bodesa" width="304" height="138" loading="lazy"><span class="mono">Bodesa</span></li>
+      <li class="client"><img src="assets/clients/el-bodegon.jpg" alt="Logotipo de El Bodegón" width="322" height="135" loading="lazy"><span class="mono">El Bodegón</span></li>
+      <li class="client"><img src="assets/clients/max4less.jpg" alt="Logotipo de Max4Less Outlet" width="248" height="156" loading="lazy"><span class="mono">Max4Less Outlet</span></li>
+      <li class="client"><img src="assets/clients/bds.jpg" alt="Logotipo de BDS" width="366" height="148" loading="lazy"><span class="mono">BDS</span></li>
+      <li class="client"><img src="assets/clients/osroca.jpg" alt="Logotipo de Osroca Corporativo" width="304" height="125" loading="lazy"><span class="mono">Osroca Corporativo</span></li>
+      <li class="client"><img src="assets/clients/galerias-reforma.jpg" alt="Logotipo de Galerías Reforma" width="366" height="112" loading="lazy"><span class="mono">Galerías Reforma</span></li>
     </ul>
 
     <div class="reviews" data-reveal>
@@ -984,10 +994,14 @@
           <span class="c-item__ic"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg></span>
           <span><small class="mono">Correo</small><strong>inseprin@gmail.com</strong></span>
         </a>
-        <a class="c-item" href="https://maps.google.com/?q=Calzada%20De%20Tlalpan%20%23679%2C%20CDMX%2C%2003400" target="_blank" rel="noopener noreferrer">
+        <a class="c-item" href="https://maps.app.goo.gl/koGn14TSjJQJgh4f8" target="_blank" rel="noopener noreferrer">
           <span class="c-item__ic"><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg></span>
-          <span><small class="mono">Oficina</small><strong>Calzada de Tlalpan #679, CDMX, 03400</strong></span>
+          <span><small class="mono">Oficina</small><strong>Carretera México-Toluca #1725 Int. F4, Col. Granjas Palo Alto, Cuajimalpa, CDMX, 05118</strong></span>
         </a>
+        <div class="c-item">
+          <span class="c-item__ic"><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg></span>
+          <span><small class="mono">Horario de atención</small><strong>Lunes a viernes de 9:00 a 17:00 h<br>Sábados de 9:00 a 13:00 h</strong></span>
+        </div>
         <div class="c-item">
           <span class="c-item__ic"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg></span>
           <span><small class="mono">Áreas cubiertas</small><strong>República Mexicana</strong></span>
@@ -995,7 +1009,7 @@
       </address>
 
       <div class="contact__map brackets" data-reveal>
-        <iframe title="Ubicación de INSEPRIN en Calzada de Tlalpan #679, Ciudad de México" src="https://www.google.com/maps?q=19.3946304,-99.138308&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <iframe title="Ubicación de INSEPRIN en Carretera México-Toluca #1725, Cuajimalpa, Ciudad de México" src="https://www.google.com/maps?q=19.3816541,-99.2544344&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
       </div>
     </div>
 
@@ -1099,7 +1113,7 @@
         <ul>
           <li><a href="tel:+525662516690">566 251 6690</a></li>
           <li><a href="mailto:inseprin@gmail.com">inseprin@gmail.com</a></li>
-          <li>Calzada de Tlalpan #679,<br>CDMX, C.P. 03400</li>
+          <li>Carretera México-Toluca #1725 Int. F4,<br>Col. Granjas Palo Alto, Cuajimalpa,<br>CDMX, C.P. 05118</li>
           <li>Cobertura: República Mexicana</li>
         </ul>
       </div>

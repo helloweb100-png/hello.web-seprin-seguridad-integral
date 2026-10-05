@@ -816,7 +816,7 @@ html:not(.js) .svc__panel { grid-area: auto; visibility: visible; opacity: 1; po
 .client:hover img { filter: none; opacity: 1; transform: scale(1.06); }
 .client:hover span { color: var(--royal); }
 .client:hover::after { transform: scaleX(1); }
-@media (min-width: 900px) { .client-grid { grid-template-columns: repeat(4, 1fr); } .client { aspect-ratio: 5 / 4; } }
+@media (min-width: 900px) { .client-grid { grid-template-columns: repeat(5, 1fr); } .client { aspect-ratio: 5 / 4; } }
 
 .reviews { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 32px; margin-top: 32px; padding: 22px 26px; background: var(--bg); border: 1px solid var(--line); }
 .reviews__score { display: flex; align-items: center; gap: 14px; }
