@@ -13,7 +13,7 @@
   var clamp = function (v, a, b) { return Math.min(b, Math.max(a, v)); };
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-  var WA_NUMBER = '523522425406';
+  var WA_NUMBER = '525662516690';
 
   var hasGsap = false, lenis = null;
   var body = document.body;
